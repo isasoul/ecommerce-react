@@ -1,15 +1,16 @@
 import CardWidget from "../CardWiget/CardWidget"
 import Recurso1 from "./assets/Recurso1.svg"
+import "./NavBar.css"
 
 const NavBar = () =>{
     return (
-        <nav>
-            <img src={Recurso1} alt= "logo-1" className="logo-kibah"/>
+        <nav className="navbar fixed-top navbar-light bg-light">
+            <img src={Recurso1} alt= "logo-1" className=" navbar-brand logo-kibah"/>
             <div>
-                <button className="btn btn-outline-primary"> Skin Care</button>
-                <button className="btn btn-outline-primary"> Bullets </button>
-                <button  className="btn btn-outline-primary"> Punto G </button>
-                <button className="btn btn-outline-primary"> Doble Estimulacion </button>
+                <button className="btn  button-nav"> Skin Care</button>
+                <button className="btn  button-nav"> Bullets </button>
+                <button className="btn  button-nav"> Punto G </button>
+                <button className="btn  button-nav"> Doble Estimulacion </button>
             </div>
             <CardWidget />
         </nav>

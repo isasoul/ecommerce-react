@@ -1,0 +1,12 @@
+.ItemImg{
+    width: 200px;
+    height: 200px;
+}
+.CardItem{
+    margin: 50px;
+
+}
+.Option{
+    background-color:  rgb(230, 34, 148);
+    color: aliceblue;
+}

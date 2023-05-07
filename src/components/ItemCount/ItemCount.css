@@ -1,0 +1,24 @@
+.Counter{
+    display: flex;
+    justify-content: center;
+ 
+}
+.Controls {
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+}
+ 
+.Button{
+    margin: 10px;
+    background-color: rgb(250, 204, 232);
+    
+}
+.Number{
+    font-size: 1.5em;
+    padding: 20px;
+}
+.Button-Add{
+    display: flex;
+    justify-content: center;
+}  

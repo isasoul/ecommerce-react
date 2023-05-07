@@ -1,0 +1,11 @@
+.logo-kibah{
+    width: 150px;
+    height: 150px;
+    padding-left: 25px;
+}
+.button-nav{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(230, 34, 148);
+    color: rgb(247, 241, 241);
+}
