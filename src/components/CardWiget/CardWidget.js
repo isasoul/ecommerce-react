@@ -3,7 +3,7 @@ import "./CardWidget.css"
 
 const CardWidget = () => {
     return (
-        <div>
+        <div className="number-cart"> 
             <img src= {cart} alt= "cart-widget" className="cart"/>
             0
         </div>
