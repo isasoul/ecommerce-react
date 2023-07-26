@@ -1,4 +1,4 @@
-const products =[
+const products = [
     {
         id: "1",
         name: "Magic Bunny",
@@ -23,7 +23,7 @@ const products =[
 
     export const getProductById = (productId) => {
         return new Promise((resolve) => {
-            setTimeout(() =>{
+            setTimeout(() => {
                 resolve(products.find(prod => prod.id === productId))
             },500)
         })
